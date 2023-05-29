@@ -18,7 +18,7 @@ force-http-engine-hosts = %APPEND% boxjs.net, boxjs.com
 
 [Rule]
 # > 策略优选
-AND,((DOMAIN,iosapps.itunes.apple.com), (SCRIPT,策略优选)),Apple
+AND,((DOMAIN,iosapps.itunes.apple.com), (SCRIPT,苹果服务)),Apple
 # > Siri与搜索 代理
 PROCESS-NAME,LookupViewService,Hong Kong
 PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService,Hong Kong
